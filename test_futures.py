@@ -8,9 +8,9 @@ from dotenv import load_dotenv
 load_dotenv()
 
 api= os.getenv('BINANCE_API_KEY')
-secret=os.getenv("Avm3tPs7JPAJ2dMVCULYr4uxoOIYfJK5ucQqZ6YnF8TQtWLifo3X5gY3nNLdJqGT")
+secret=os.getenv("BINANCE_API_SECRET")
 client = UMFutures(key = api, secret=secret)
-
+p
 # 0.012 means +1.2%, 0.009 is -0.9% TODO: Initial TP and SL
 # tp = 0.012 #- with 10 leverage its 0.12% profit
 # tp = 0.0025
